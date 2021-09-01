@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fast typing simulator which turns your random key-presses into some meaningful text.">
+    <title>Fast Typer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="options">
+        <h1>Fast Typer</h1>
+        <p>Show them your real typing speed!</p>
+        <hr class="line">
+        <select id="dropdown">
+            <option>Aesop's Fables</option>
+            <option>Benefits of Video Games</option>
+            <option id="customOption">Custom Text</option>
+        </select>
+        <br>
+        <textarea id="customText" cols="40" rows="10" placeholder="Your custom text here..."></textarea>
+        <br>
+        <input type="radio" name="speed" value="char" checked>
+        <label>One character per keypress</label>
+        <input type="radio" name="speed" value="word">
+        <label>One word per keypress</label>
+        <br>
+        <input type="checkbox" id="soundCheckbox">
+        <label>Keyboard sound</label>
+        <br>
+        <button id="startBtn">Start</button>
+    </div>
+
+    <div class="main">
+        <p id="content"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

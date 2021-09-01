@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.options {
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+    letter-spacing: 2px;
+}
+
+.main {
+    display: none;
+    margin: auto;
+    margin-top: 8vh;
+    width: 90%;
+}
+
+.line {
+    margin: 20px auto;
+    width: 50%;
+    opacity: 0.5;
+}
+
+.options h1 {
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.options p {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+#dropdown {
+    margin: 10px 0px;
+    padding: 10px 7px;
+    width: 318px;
+}
+
+#customText {
+    resize: none;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    margin: 20px 5px;
+}
+
+input[type="checkbox"] {
+    margin: 0px 5px;
+}
+
+label {
+    opacity: 0.85;
+}
+
+#startBtn {
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: black;
+    color: white;
+    border: black 1px solid;
+    transition: 0.3s;
+}
+
+#startBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px black;
+    transform: scale(1.05);
+}
