@@ -45,7 +45,7 @@ function main() {
         }
 
         if (soundCheckbox.checked) {
-            new Audio("keyboard-sound.wav").play();
+            new Audio("keyboard-sound.mp3").play();
         }
     });
 }
