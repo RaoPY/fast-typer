@@ -3,10 +3,10 @@ soundCheckbox = document.getElementById("soundCheckbox");
 startBtn = document.getElementById("startBtn");
 content = document.getElementById("content");
 
-startBtn.addEventListener("click", main);
+startBtn.addEventListener("click", start);
 customText.addEventListener("click", () => document.getElementById("customOption").selected = true);
 
-function main() {
+function start() {
     document.getElementsByClassName("options")[0].style.display = "none";
     document.getElementsByClassName("main")[0].style.display = "block";
 
